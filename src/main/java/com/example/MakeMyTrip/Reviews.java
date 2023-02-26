@@ -1,15 +1,13 @@
 package com.example.MakeMyTrip;
 
-
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
-public class Activities {
-    @GetMapping("/myactivities")
+public class Reviews {
+    @GetMapping("/myreviews")
     public String getData(){
-        return"Please check recent activitis happening in city";
+        return"Please give your reviews here";
     }
 }
-
